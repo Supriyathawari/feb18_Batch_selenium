@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="3" passed="3" failed="0" skipped="0">
+  <reporter-output>
+    <line>
+      <![CDATA[method 1]]>
+    </line>
+    <line>
+      <![CDATA[method 2]]>
+    </line>
+    <line>
+      <![CDATA[method 3]]>
+    </line>
+  </reporter-output>
+  <suite started-at="2023-07-18T19:18:52 IST" name="Suite" finished-at="2023-07-18T19:18:52 IST" duration-ms="60">
+    <groups>
+    </groups>
+    <test started-at="2023-07-18T19:18:52 IST" name="Test" finished-at="2023-07-18T19:18:52 IST" duration-ms="60">
+      <class name="testNGxml.TestMethodUsed">
+        <test-method signature="mymethod1()[pri:0, instance:testNGxml.TestMethodUsed@2d1ef81a]" started-at="2023-07-18T19:18:52 IST" name="mymethod1" finished-at="2023-07-18T19:18:52 IST" duration-ms="10" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[method 1]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- mymethod1 -->
+        <test-method signature="mymethod2()[pri:0, instance:testNGxml.TestMethodUsed@2d1ef81a]" started-at="2023-07-18T19:18:52 IST" name="mymethod2" finished-at="2023-07-18T19:18:52 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[method 2]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- mymethod2 -->
+        <test-method signature="mymethod3()[pri:0, instance:testNGxml.TestMethodUsed@2d1ef81a]" started-at="2023-07-18T19:18:52 IST" name="mymethod3" finished-at="2023-07-18T19:18:52 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[method 3]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- mymethod3 -->
+      </class> <!-- testNGxml.TestMethodUsed -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
